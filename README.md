@@ -9,4 +9,4 @@ Runs on python 3.4, but is probably fine on python2 as well. Requires the follow
 - numpy 
 - ggplot
 
-All can be installed by pip install [PACKAGE NAME]
+All can be installed by pip3 install -r requirements.txt
