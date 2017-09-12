@@ -1,4 +1,6 @@
 
+# coding: utf-8
+
 # # Bli en Data Scientist på 20 minutter
 # ** JavaZone 2017 **  
 # ** simen.eide@finn.no **  
@@ -22,11 +24,13 @@
 # In[ ]:
 
 
-# Alle pakkene kan installeres ved å skrive pip install *pakkenavn* i kommandolinja.
+# Alle pakkene kan installeres ved å skrive pip install *pakkenavn* på kommandolinjen.
 
 from sklearn.ensemble import RandomForestRegressor
 import pandas as pd
 import numpy as np
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 from ggplot import *
 
 # må kommenteres ut hvis det kjøres som python-script:
